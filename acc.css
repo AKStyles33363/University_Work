@@ -1,0 +1,67 @@
+.sign{
+    display: inline-block;
+    position: relative;
+    background: rgb(223, 223, 223);
+    width: 45%;
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 0;
+}
+
+.form{
+    
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    margin: 0 auto 10px;
+    padding: 5px;
+    text-align: left;
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.siz{
+      font-size: 12pt;
+      margin-left: 10px;
+      text-align: left;
+}
+
+.radio{
+   
+      text-align: left;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 40%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }
+  .xz{
+      width: 40%;
+      ;
+  }
+
+  .gen{
+      text-align: left;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
