@@ -1,0 +1,161 @@
+.workspace{
+    margin: 0 1%;
+}
+
+.header{
+    vertical-align: top;
+    background: #6B7180;
+}
+
+.left_panel{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    text-align: left;
+    background: #999a9c;
+    width: 25%;
+}
+
+.right_panel{
+    display: inline-block;
+    position: relative;
+    background: rgb(161, 167, 189);
+    width: 74.65%;
+}
+
+.footer{
+    vertical-align: bottom;
+    position: relative;
+    background: lightgrey;
+    text-align: left;
+    
+}
+
+#logo{
+    width:15%;
+}
+
+.head_buttons{
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+}
+.buttons_sign{
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+    margin-left: 57%;
+}
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    /* color: green; */
+    cursor: pointer;
+    display: inline-block; 
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+}
+
+.category_item {
+    display: block;
+}
+
+.sales_hit_container{
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+.sales_hit_item{
+    display: inline-block;
+    margin: 10px;
+    width: 20%;
+}
+
+.sales_hit_item img{
+    width: 100%;
+}
+
+.salse_hit_megacontainer{
+    margin-top: 30px;
+}
+
+.work_place{
+    background: #949CBD;
+}
+
+.img_for{
+    text-align: left;
+    display: inline-block;
+    width: 35%;
+}
+.vip{
+    text-align: center;
+   
+}
+.author{
+    font-size: 12pt;
+}
+.lefttxt{
+    text-align: left;
+}
+.form-group{
+    position: relative;
+}
+.osobenost{
+
+}
+.pic{
+ width: 450px;
+ height: 450px;
+ margin-left: 40%;  
+}
+.cheh{
+    font-size: 10pt;
+    text-align: center;
+}
+.OEM{
+    margin-left: 40%;
+}
+.harakt{
+margin-left: 30%;
+}
+.opis{
+    margin-left: 30%;
+    font-size: 11pt;
+    margin-top: 3%;
+}
+.pi{
+    width: 450px;
+ height: 450px;
+ margin-top: 2%;
+ margin-left: 40%;
+}
+.genaral {
+    position: absolute;
+    margin-left: 25%;
+    min-height: 100%;
+    width: 50%;
+    background: #D3D3D3;
+}
